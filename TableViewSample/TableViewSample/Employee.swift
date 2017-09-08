@@ -16,9 +16,9 @@ class Employee :NSObject {
     
     //MARK:- Initilizers
     override init() {
-        id = ""
-        name = ""
-        contactNumber = ""
+        id = Constants.emptyString
+        name = Constants.emptyString
+        contactNumber = Constants.emptyString
         super.init()
     }
     
