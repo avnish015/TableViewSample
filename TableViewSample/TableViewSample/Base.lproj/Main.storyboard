@@ -60,7 +60,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Edit" id="W48-6f-4Dl">
                                     <items>
-                                        <menuItem title="Item" keyEquivalent="a" id="edr-1D-wDp" userLabel="Add">
+                                        <menuItem title="Add" keyEquivalent="a" id="edr-1D-wDp" userLabel="Add">
                                             <connections>
                                                 <action selector="addButtonClicked:" target="Ady-hI-5gd" id="dtF-a2-9ug"/>
                                             </connections>
@@ -287,6 +287,7 @@
                                             </tableColumns>
                                             <connections>
                                                 <binding destination="3Kv-dz-0aF" name="content" keyPath="arrangedObjects" id="j8o-kZ-Zzv"/>
+                                                <binding destination="3Kv-dz-0aF" name="selectionIndexes" keyPath="selectionIndexes" previousBinding="j8o-kZ-Zzv" id="Zky-ac-R94"/>
                                                 <outlet property="dataSource" destination="U3v-iQ-qSR" id="Y39-9I-nDn"/>
                                                 <outlet property="delegate" destination="U3v-iQ-qSR" id="v7g-1J-GHC"/>
                                             </connections>

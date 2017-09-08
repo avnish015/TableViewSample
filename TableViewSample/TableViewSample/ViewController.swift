@@ -68,7 +68,6 @@ class ViewController: NSViewController, EmployeeInfoUpdaterDelegate {
         } else{
             self.arrayController.filterPredicate = nil
         }
-        self.arrayController.content = employees
         self.tableView.reloadData()
     }
     
